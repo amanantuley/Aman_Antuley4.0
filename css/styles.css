@@ -303,6 +303,39 @@
 
 
 
+/* Ensure timeline is visible and responsive */
+.timeline {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+/* Add spacing between each timeline block */
+.timeline__block {
+    margin-bottom: 20px;
+}
+
+/* Style the bullets for timeline items */
+.timeline__bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #000;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+/* Ensure good padding for the description */
+.timeline__desc {
+    padding-left: 30px;
+}
+
+/* Optional: Add some spacing for header titles */
+.timeline__header h4 {
+    margin-bottom: 5px;
+}
+
+
+
 /* ====================================================================
  * # NORMALIZE
  *
