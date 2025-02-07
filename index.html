@@ -533,47 +533,66 @@
             </section> <!-- end s-works -->
 
 
-            <!-- ### contact
-            ================================================== -->
-            <section id="contact" class="s-contact target-section">
+        <!-- ### Contact Section
+================================================== -->
+<section id="contact" class="s-contact target-section">
+    <div class="row contact-top">
+        <div class="column lg-12">
+            <h2 class="text-pretitle">Get In Touch</h2>
+            <p class="h1">
+                Feel free to reach out—always open to connect!
+            </p>
+        </div>
+    </div> <!-- end contact-top -->
 
-                <div class="row contact-top">
-                    <div class="column lg-12">
-                        <h2 class="text-pretitle">
-                            Get In Touch
-                        </h2>
+    <div class="row contact-bottom">
+        <!-- Contact Details -->
+        <div class="column lg-3 md-5 tab-6 stack-on-550 contact-block">
+            <h3 class="text-pretitle">Reach me at</h3>
+            <p class="contact-links">
+                <a href="mailto:amanantuley3794@gmail.com" class="mailtoui">amanantuley3794@gmail.com</a> <br>
+                <a href="tel:+919867408609">+91-9867408609</a>
+            </p>
+        </div>
 
-                        <p class="h1">
-                            Feel free to reach out—always open to connect!
-                        </p>
-                    </div>
-                </div> <!-- end contact-top -->
+        <!-- Social Links -->
+        <div class="column lg-4 md-5 tab-6 stack-on-550 contact-block">
+            <h3 class="text-pretitle">Social</h3>
+            <ul class="contact-social">
+                <li><a href="https://www.facebook.com/aman.antuley.1" aria-label="Facebook Profile">Facebook</a></li>
+                <li><a href="https://www.linkedin.com/in/aman-antuley-8974ab26a/" aria-label="LinkedIn Profile">LinkedIn</a></li>
+                <li><a href="https://x.com/AmanAntuley" aria-label="Twitter Profile">Twitter</a></li>
+                <li><a href="https://www.instagram.com/aman._.antuley/" aria-label="Instagram Profile">Instagram</a></li>
+                <li><a href="https://github.com/amanantuley" aria-label="GitHub Profile">GitHub</a></li>
+            </ul>
+        </div>
 
-               <div class="row contact-bottom">
-    <div class="column lg-3 md-5 tab-6 stack-on-550 contact-block">
-        <h3 class="text-pretitle">Reach me at</h3>
-        <p class="contact-links">
-            <a href="mailto:amanantuley3794@gmail.com" class="mailtoui">amanantuley3794@gmail.com</a> <br>
-            <a href="tel:+919867408609">+91-9867408609</a>
-        </p>
-    </div>
-    <div class="column lg-4 md-5 tab-6 stack-on-550 contact-block">
-        <h3 class="text-pretitle">Social</h3>
-        <ul class="contact-social">
-            <li><a href="https://www.facebook.com/aman.antuley.1">Facebook</a></li>
-            <li><a href="https://www.linkedin.com/in/aman-antuley-8974ab26a/">LinkedIn</a></li>
-            <li><a href="https://x.com/AmanAntuley">Twitter</a></li>
-            <li><a href="https://www.instagram.com/aman._.antuley/">Instagram</a></li>
-            <li><a href="https://github.com/amanantuley">GitHub</a></li>
-        </ul>
-    </div>
-    <div class="column lg-4 md-12 contact-block">
-        <form action="https://api.web3forms.com/submit" method="POST">
-            <input type="hidden" name="access_key" value="d65af315-0c33-4509-8335-6ca1b30c73ad">
-            <a href="mailto:amanantuley3794@gmail.com" class="mailtoui btn btn--medium u-fullwidth contact-btn">Mail Me!</a>
-        </form>
-    </div>
-</div> <!-- end contact-bottom -->
+        <!-- Contact Form -->
+        <div class="column lg-4 md-12 contact-block">
+            <h3 class="text-pretitle">Send me a message</h3>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="d65af315-0c33-4509-8335-6ca1b30c73ad">
+                
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" placeholder="Type your message here..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn--medium u-fullwidth contact-btn">Send Message</button>
+            </form>
+        </div>
+    </div> <!-- end contact-bottom -->
+</section> <!-- end contact -->
 
 
 
