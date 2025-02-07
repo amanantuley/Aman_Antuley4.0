@@ -510,32 +510,39 @@
             </ul>
         </div>
 
-        <!-- Contact Form -->
-        <div class="column lg-4 md-12 contact-block">
-            <h3 class="text-pretitle">Send me a message</h3>
-            <form action="https://api.web3forms.com/submit" method="POST">
-                <input type="hidden" name="access_key" value="d65af315-0c33-4509-8335-6ca1b30c73ad">
-                
-                <div class="form-group">
-                    <label for="name">Your Name</label>
-                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
-                </div>
+       <!-- Contact Form -->
+<div class="column lg-4 md-12 contact-block" style="width: 100%; max-width: 500px; margin: auto; text-align: center;">
+    <h3 class="text-pretitle" style="font-size: 24px; color: #333; margin-bottom: 20px;">Send me a message</h3>
+    <form action="https://api.web3forms.com/submit" method="POST" 
+        style="display: flex; flex-direction: column; gap: 15px; width: 100%; padding: 20px; background: #f9f9f9; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+        
+        <input type="hidden" name="access_key" value="d65af315-0c33-4509-8335-6ca1b30c73ad">
 
-                <div class="form-group">
-                    <label for="email">Your Email</label>
-                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="message">Your Message</label>
-                    <textarea id="message" name="message" placeholder="Type your message here..." required></textarea>
-                </div>
-
-                <button type="submit" class="btn btn--medium u-fullwidth contact-btn">Send Message</button>
-            </form>
+        <div class="form-group" style="display: flex; flex-direction: column; text-align: left;">
+            <label for="name" style="font-weight: bold; margin-bottom: 5px;">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required
+                style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; font-size: 16px;">
         </div>
-    </div> <!-- end contact-bottom -->
-</section> <!-- end contact -->
+
+        <div class="form-group" style="display: flex; flex-direction: column; text-align: left;">
+            <label for="email" style="font-weight: bold; margin-bottom: 5px;">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required
+                style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; font-size: 16px;">
+        </div>
+
+        <div class="form-group" style="display: flex; flex-direction: column; text-align: left;">
+            <label for="message" style="font-weight: bold; margin-bottom: 5px;">Your Message</label>
+            <textarea id="message" name="message" placeholder="Type your message here..." required
+                style="width: 100%; min-height: 120px; padding: 10px; border: 1px solid #ccc; border-radius: 5px; font-size: 16px; resize: vertical;"></textarea>
+        </div>
+
+        <button type="submit" class="btn contact-btn"
+            style="background-color: #007bff; color: white; font-size: 18px; padding: 12px; border: none; border-radius: 5px; cursor: pointer; transition: background 0.3s ease-in-out;">
+            Send Message
+        </button>
+    </form>
+</div>
+</section>
 
 
 
