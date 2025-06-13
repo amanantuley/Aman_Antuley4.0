@@ -1,114 +1,122 @@
 
+# 🌐 Aman Antuley - Official Portfolio Website
 
-# Aman Antuley - Official Portfolio Website 🌐💼  
-
-Welcome to the **official portfolio website** repository! This website represents my professional journey as a developer, showcasing my skills, projects, and achievements. It serves as a platform for potential employers, collaborators, and clients to learn more about my expertise and the value I bring to the table.  
-
----
-
-## 📋 **Table of Contents**  
-
-1. [About the Portfolio](#about-the-portfolio)  
-2. [Features](#features)  
-3. [Technologies Used](#technologies-used)  
-4. [Setup and Installation](#setup-and-installation)  
-5. [Screenshots](#screenshots)  
-6. [Contributing](#contributing)  
-7. [License](#license)  
-8. [Contact](#contact)  
+Welcome to the **official portfolio repository** of **Aman Antuley**. This website serves as a central platform to showcase my skills, achievements, projects, and professional journey. It is designed for employers, collaborators, and recruiters to explore my technical profile.
 
 ---
 
-## 📝 **About the Portfolio**  
+## 📁 Folder Structure
 
-This portfolio website is designed to:  
-- Highlight my **skills, experience, and professional journey**.  
-- Showcase my **projects** with detailed descriptions, live demos, and GitHub links.  
-- Serve as a central hub for clients, employers, or collaborators to **connect with me**.  
+```
 
-### 🌟 **Live Demo**  
-Explore my portfolio here:  
-**[Aman Antuley Portfolio](https://your-portfolio-link.com)**  
+📦 Portfolio/
+│
+├── css/                  # Stylesheets (e.g., styles.css)
+├── images/               # Portfolio images, screenshots
+├── js/                   # JavaScript files
+│
+├── LICENSE.md            # MIT License
+├── README.md             # Project documentation
+├── favicon-16x16.png     # Browser favicon (16px)
+├── favicon-32x32.png     # Browser favicon (32px)
+├── index.html            # Main portfolio landing page
+├── site.webmanifest      # Web app manifest file
+└── styles.html           # Additional style content (optional)
 
----
-
-## ✨ **Features**  
-
-- **About Me**: A comprehensive introduction to who I am and what I do.  
-- **Skills Section**: A detailed list of my technical and soft skills.  
-- **Projects Showcase**: A display of my best projects with descriptions, technologies used, and links to live demos or repositories.  
-- **Contact Form**: A way for visitors to reach out to me directly through the website.  
-- **Responsive Design**: Fully optimized for desktop, tablet, and mobile devices.  
-
----
-
-## 💻 **Technologies Used**  
-
-- **HTML5**: Structure and content.  
-- **CSS3**: Styling and animations.  
-- **JavaScript**: Interactivity and dynamic elements.  
-- **Frameworks/Libraries**: [Include if used, e.g., Bootstrap, Tailwind CSS, GSAP, etc.]  
+````
 
 ---
 
-## 🛠 **Setup and Installation**  
+## 📝 About the Portfolio
 
-1. Clone this repository:  
-   ```bash  
-   git clone https://github.com/amanantuley/portfolio.git  
-   ```  
+This portfolio highlights:
+- My **professional background and experience**
+- A detailed list of **skills and projects**
+- **Live demos** and links to GitHub repositories
+- A fully **responsive** design optimized for all screen sizes
 
-2. Navigate to the project folder:  
-   ```bash  
-   cd portfolio  
-   ```  
-
-3. Open `index.html` in your browser to view the website locally:  
-   ```bash  
-   open index.html  
-   ```  
+### 🌟 Live Portfolio  
+🔗 [Visit Here](https://amanantuley.github.io/Aman_Antuley/)
 
 ---
 
-## 📸 **Screenshots**  
+## ✨ Features
 
-### Home Page  
-![Home Page](screenshots/home.png)  
-
-### About Me Section  
-![About Me Section](screenshots/about.png)  
-
-### Projects Section  
-![Projects Section](screenshots/projects.png)  
-
-### Contact Form  
-![Contact Form](screenshots/contact.png)  
-
-*Add more screenshots for other sections as needed.*  
+- 🧑‍💼 **About Me** section with bio and career summary  
+- 🛠 **Skills & Tools** categorized into frontend, backend, and data  
+- 🚀 **Projects Section** with descriptions, tech stack, and links  
+- 📩 **Contact Form** for direct messaging  
+- 📱 **Responsive Design** for mobile and desktop users  
 
 ---
 
-## 🤝 **Contributing**  
+## 💻 Technologies Used
 
-Contributions are welcome!  
-1. Fork the repository.  
-2. Create a feature branch (`git checkout -b feature-name`).  
-3. Commit your changes (`git commit -m "Add feature-name"`).  
-4. Push to the branch (`git push origin feature-name`).  
-5. Open a Pull Request.  
+- **HTML5** – Markup language for structure  
+- **CSS3** – Styling and layout  
+- **JavaScript** – Interactivity and animation  
+- *(You may add frameworks like Bootstrap or Tailwind if applicable)*
 
 ---
 
-## 📄 **License**  
+## ⚙️ Setup & Installation
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.  
+```bash
+# 1. Clone the repository
+git clone https://github.com/amanantuley/portfolio.git
+
+# 2. Navigate into the folder
+cd portfolio
+
+# 3. Open index.html in your browser
+start index.html   # Windows
+open index.html    # macOS
+````
 
 ---
 
-## 📬 **Contact**  
+## 🖼️ Screenshots
 
-- **Developer**: Aman Antuley  
-- **Email**: [your-email@example.com](mailto:your-email@example.com)  
-- **Website**: [Portfolio](https://your-portfolio-link.com)  
-- **GitHub**: [https://github.com/amanantuley](https://github.com/amanantuley)  
-- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/your-profile)  
+> *(Screenshots not present yet – place them inside `images/` folder and reference them here)*
+
+```
+📁 images/
+├── home.png         # Homepage screenshot
+├── about.png        # About Me section
+├── projects.png     # Projects showcase
+├── contact.png      # Contact form preview
+```
+
+---
+
+## 🤝 Contributing
+
+All contributions are welcome:
+
+1. Fork the repo
+2. Create your feature branch: `git checkout -b feature-name`
+3. Commit your changes: `git commit -m "Add feature"`
+4. Push to the branch: `git push origin feature-name`
+5. Submit a Pull Request
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE.md).
+
+---
+
+## 📬 Contact Me
+
+* **Name**: Aman Antuley
+* 📧 **Email**: [amanantuley3794@gmail.com](mailto:amanantuley3794@gmail.com)
+* 🌐 **Portfolio**: [amanantuley.github.io/Aman\_Antuley](https://amanantuley.github.io/Aman_Antuley)
+* 💼 **LinkedIn**: [linkedin.com/in/amanantuley](https://www.linkedin.com/in/amanantuley)
+* 🐙 **GitHub**: [github.com/amanantuley](https://github.com/amanantuley)
+
+---
+
+> ⭐ Don’t forget to star this repository if you like the portfolio!
+
+
