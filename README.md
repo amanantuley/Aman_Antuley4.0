@@ -3,7 +3,6 @@
 
 Welcome to the **official portfolio repository** of **Aman Antuley**. This website serves as a central platform to showcase my skills, achievements, projects, and professional journey. It is designed for employers, collaborators, and recruiters to explore my technical profile.
 
----
 
 ## 📁 Folder Structure
 
